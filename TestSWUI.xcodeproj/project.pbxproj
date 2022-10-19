@@ -14,6 +14,18 @@
 		246C630128ED6E2B00343FE7 /* TestSWUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C630028ED6E2B00343FE7 /* TestSWUITests.swift */; };
 		246C630B28ED6E2B00343FE7 /* TestSWUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C630A28ED6E2B00343FE7 /* TestSWUIUITests.swift */; };
 		246C630D28ED6E2B00343FE7 /* TestSWUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C630C28ED6E2B00343FE7 /* TestSWUIUITestsLaunchTests.swift */; };
+		2492DFCE28FE911E00ED3006 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492DFCD28FE911E00ED3006 /* Navigation.swift */; };
+		2492DFD028FE92E900ED3006 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492DFCF28FE92E900ED3006 /* HomeView.swift */; };
+		2492DFD228FE931100ED3006 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492DFD128FE931100ED3006 /* HomeViewModel.swift */; };
+		2492DFD628FEA46000ED3006 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492DFD528FEA46000ED3006 /* AuthView.swift */; };
+		2492DFD828FEA46E00ED3006 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492DFD728FEA46E00ED3006 /* AuthViewModel.swift */; };
+		2492DFDC28FEB5C100ED3006 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492DFDB28FEB5C100ED3006 /* Item.swift */; };
+		24A0CEF028FF8C0D00C69CDA /* SessionNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0CEEF28FF8C0D00C69CDA /* SessionNetwork.swift */; };
+		24A0CEF228FF8CC500C69CDA /* NavigationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0CEF128FF8CC500C69CDA /* NavigationViewModel.swift */; };
+		24A0CEF628FF91BC00C69CDA /* AuthPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0CEF528FF91BC00C69CDA /* AuthPost.swift */; };
+		24A0CEF828FF948200C69CDA /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0CEF728FF948200C69CDA /* BaseResponse.swift */; };
+		24A0CEFB28FF94C400C69CDA /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0CEFA28FF94C400C69CDA /* AuthResponse.swift */; };
+		24FB439128FD5B40006A7F68 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB439028FD5B40006A7F68 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		246C630628ED6E2B00343FE7 /* TestSWUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSWUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		246C630A28ED6E2B00343FE7 /* TestSWUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSWUIUITests.swift; sourceTree = "<group>"; };
 		246C630C28ED6E2B00343FE7 /* TestSWUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSWUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2492DFCD28FE911E00ED3006 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		2492DFCF28FE92E900ED3006 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2492DFD128FE931100ED3006 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		2492DFD528FEA46000ED3006 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		2492DFD728FEA46E00ED3006 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		2492DFDB28FEB5C100ED3006 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		24A0CEEF28FF8C0D00C69CDA /* SessionNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionNetwork.swift; sourceTree = "<group>"; };
+		24A0CEF128FF8CC500C69CDA /* NavigationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewModel.swift; sourceTree = "<group>"; };
+		24A0CEF528FF91BC00C69CDA /* AuthPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPost.swift; sourceTree = "<group>"; };
+		24A0CEF728FF948200C69CDA /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		24A0CEFA28FF94C400C69CDA /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
+		24FB439028FD5B40006A7F68 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,10 @@
 		246C62EE28ED6E2A00343FE7 /* TestSWUI */ = {
 			isa = PBXGroup;
 			children = (
+				24A0CEEE28FF8BE500C69CDA /* Network */,
+				2492DFD928FEB5A700ED3006 /* Model */,
+				2492DFCA28FE90FC00ED3006 /* View+ViewModel */,
+				24FB438D28FD5ADF006A7F68 /* CommonWidget */,
 				246C62EF28ED6E2A00343FE7 /* TestSWUIApp.swift */,
 				246C62F128ED6E2A00343FE7 /* ContentView.swift */,
 				246C62F328ED6E2B00343FE7 /* Assets.xcassets */,
@@ -125,6 +153,86 @@
 				246C630C28ED6E2B00343FE7 /* TestSWUIUITestsLaunchTests.swift */,
 			);
 			path = TestSWUIUITests;
+			sourceTree = "<group>";
+		};
+		2492DFCA28FE90FC00ED3006 /* View+ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2492DFD428FEA44F00ED3006 /* LoginScreen */,
+				2492DFCC28FE910D00ED3006 /* Navigation */,
+				2492DFCB28FE910800ED3006 /* Home */,
+			);
+			path = "View+ViewModel";
+			sourceTree = "<group>";
+		};
+		2492DFCB28FE910800ED3006 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				2492DFCF28FE92E900ED3006 /* HomeView.swift */,
+				2492DFD128FE931100ED3006 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		2492DFCC28FE910D00ED3006 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2492DFCD28FE911E00ED3006 /* Navigation.swift */,
+				24A0CEF128FF8CC500C69CDA /* NavigationViewModel.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2492DFD428FEA44F00ED3006 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				2492DFD528FEA46000ED3006 /* AuthView.swift */,
+				2492DFD728FEA46E00ED3006 /* AuthViewModel.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		2492DFD928FEB5A700ED3006 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				24A0CEF928FF94B200C69CDA /* DataResponse */,
+				24A0CEF328FF918F00C69CDA /* DataPOST */,
+				2492DFDB28FEB5C100ED3006 /* Item.swift */,
+				24A0CEF728FF948200C69CDA /* BaseResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		24A0CEEE28FF8BE500C69CDA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				24A0CEEF28FF8C0D00C69CDA /* SessionNetwork.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		24A0CEF328FF918F00C69CDA /* DataPOST */ = {
+			isa = PBXGroup;
+			children = (
+				24A0CEF528FF91BC00C69CDA /* AuthPost.swift */,
+			);
+			path = DataPOST;
+			sourceTree = "<group>";
+		};
+		24A0CEF928FF94B200C69CDA /* DataResponse */ = {
+			isa = PBXGroup;
+			children = (
+				24A0CEFA28FF94C400C69CDA /* AuthResponse.swift */,
+			);
+			path = DataResponse;
+			sourceTree = "<group>";
+		};
+		24FB438D28FD5ADF006A7F68 /* CommonWidget */ = {
+			isa = PBXGroup;
+			children = (
+				24FB439028FD5B40006A7F68 /* CustomButton.swift */,
+			);
+			path = CommonWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +365,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24A0CEF028FF8C0D00C69CDA /* SessionNetwork.swift in Sources */,
+				2492DFD628FEA46000ED3006 /* AuthView.swift in Sources */,
+				2492DFDC28FEB5C100ED3006 /* Item.swift in Sources */,
+				24A0CEF228FF8CC500C69CDA /* NavigationViewModel.swift in Sources */,
+				24A0CEFB28FF94C400C69CDA /* AuthResponse.swift in Sources */,
 				246C62F228ED6E2A00343FE7 /* ContentView.swift in Sources */,
+				2492DFD228FE931100ED3006 /* HomeViewModel.swift in Sources */,
 				246C62F028ED6E2A00343FE7 /* TestSWUIApp.swift in Sources */,
+				2492DFD828FEA46E00ED3006 /* AuthViewModel.swift in Sources */,
+				24FB439128FD5B40006A7F68 /* CustomButton.swift in Sources */,
+				24A0CEF628FF91BC00C69CDA /* AuthPost.swift in Sources */,
+				2492DFD028FE92E900ED3006 /* HomeView.swift in Sources */,
+				2492DFCE28FE911E00ED3006 /* Navigation.swift in Sources */,
+				24A0CEF828FF948200C69CDA /* BaseResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
