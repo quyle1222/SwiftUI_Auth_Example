@@ -6,16 +6,17 @@
 //
 
 import SwiftUI
+import DSSwiftUIKit
 
-
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
+//struct HomeView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        HomeView()
+//    }
+//}
 
 struct HomeView {
     @StateObject var viewModel = HomeViewModel()
+    var setHiddenTabBar:(Bool) -> Void
 }
 
 extension HomeView : View{

@@ -14,7 +14,7 @@ class SessionNetwork {
     private let session = URLSession.shared
     private let baseURL = "http://localhost:8088/"
     
-    func restAPI(url:String, method: MethodRest, data:Data?, handle: @escaping (Data?,URLResponse?,Error?)->Void ){
+    func restAPI(url:String, method: MethodRest, data:Data?, handle: @escaping (Data?,URLResponse?,Error?) ->Void) {
         guard let serviceUrl = URL(string: baseURL + url) else { return }
         var request = URLRequest(url: serviceUrl)
         request.httpMethod = method.rawValue

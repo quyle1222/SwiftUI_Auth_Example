@@ -1,0 +1,20 @@
+PODS:
+  - DSSwiftUIKit (2.9.1)
+  - lottie-ios (3.5.0)
+
+DEPENDENCIES:
+  - DSSwiftUIKit (~> 2.9)
+  - lottie-ios (~> 3.5)
+
+SPEC REPOS:
+  trunk:
+    - DSSwiftUIKit
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  DSSwiftUIKit: d23f189e428ffe34b9ed82f3e7bf8141835b636c
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+
+PODFILE CHECKSUM: c915559266c808bfc9f0e37d4aacadc1be41cfa6
+
+COCOAPODS: 1.11.3
