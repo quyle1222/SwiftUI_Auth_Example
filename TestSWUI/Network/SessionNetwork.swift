@@ -17,8 +17,12 @@ class SessionNetwork {
     func restAPI(url:String, method: MethodRest, data:Data?, handle: @escaping (Data?,URLResponse?,Error?) ->Void) {
         guard let serviceUrl = URL(string: baseURL + url) else { return }
         var request = URLRequest(url: serviceUrl)
+        let token: String? = LocalStorage().getString(key: .token)
         request.httpMethod = method.rawValue
         request.setValue("Application/json", forHTTPHeaderField: "Content-Type")
+         if token != nil && token != "" {
+             request.addValue("Bearer \(token!)", forHTTPHeaderField: "Authorization")
+        }
         request.httpBody = data
         session.dataTask(with: request,completionHandler: handle ).resume()
     }

@@ -29,13 +29,15 @@ extension Navigation: View {
             NavigationView {
                 TabView(selection: $tabViewSelection) {
                     HomeView(setHiddenTabBar:setHiddenTabbar)
-                        .tabItem { Text("Tab Label 1").hidden(if: viewModel.isHidden) }
+                        .tabItem {
+                            Image(systemName: "heart.fill")
+                            Text("Home").hidden(if: viewModel.isHidden) }
                         .tag(1)
-                    Text("Tab Content 2")
-                        .tabItem {Text("Tab Label 2").hidden(if: viewModel.isHidden) }
+                    NewsView()
+                        .tabItem {
+                            Image(systemName: "person.fill")
+                            Text("News").hidden(if: viewModel.isHidden) }
                         .tag(2)
-                }.onAppear {
-                    viewModel.goToLogin()
                 }
                 NavigationLink("", destination: AuthView(), isActive: $viewModel.isLogin)
             }

@@ -23,8 +23,8 @@ extension HomeView : View{
     var body: some View {
         ZStack{
             VStack{
-                List(viewModel.listItem, id: \.url){ item in
-                        AsyncImage(url: URL(string: item.url ?? "" )) { image in
+                List(viewModel.listMovies, id: \.id){ item in
+                    AsyncImage(url: URL(string:"https://image.tmdb.org/t/p/w500\(item.backdrop_path )")) { image in
                                    image
                                        .resizable()
                                        .scaledToFill()
@@ -33,8 +33,9 @@ extension HomeView : View{
                                }
                                .frame(width: .infinity, height: 200,alignment: .center)
                                .cornerRadius(10)
-                   
-                    Text(item.url ?? "")
+//                    Text(item.url ?? "")
+                }.onAppear {
+                    viewModel.getListMovieTrending()
                 }
             }
         }.onAppear(
