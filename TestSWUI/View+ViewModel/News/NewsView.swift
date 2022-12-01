@@ -9,6 +9,7 @@ import SwiftUI
 
 struct NewsView {
     @StateObject private var viewModel = NewsViewModel()
+    @State private var isPresented = false
 }
 
 extension NewsView: View {
@@ -20,7 +21,7 @@ extension NewsView: View {
                     .frame(width: 98, height: 86)
                     .background(.clear)
                 Button {
-                    viewModel.showAlert()
+                    showPickerImage()
                 } label: {
                     Text("Show dialog")
                 }.frame(width: 200, height: 35, alignment: .center)
@@ -32,7 +33,18 @@ extension NewsView: View {
                 Alert(title: Text(viewModel.alertMessage?.title ?? ""), message: Text(viewModel.alertMessage?.message ?? ""),
                       dismissButton: .cancel())
             })
+        }.sheet(isPresented:$isPresented) {
+            PickerImage(delegate: self)
         }
+    }
+}
+
+extension NewsView: PickerImageDelegate {
+    func setPickImage(isPick: Bool) {
+    }
+    
+    func showPickerImage(){
+        self.isPresented = true
     }
 }
 

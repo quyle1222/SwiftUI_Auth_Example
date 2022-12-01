@@ -18,7 +18,7 @@ struct Navigation {
     @ObservedObject private var viewModel = NavigationViewModel()
     @State public var tabViewSelection = 1
     @State private var larger = true
-  
+    
     private var singleTabWidth = UIScreen.main.bounds.width / 2
     private var offset: CGFloat = 200.0
 }
@@ -42,12 +42,6 @@ extension Navigation: View {
                 NavigationLink("", destination: AuthView(), isActive: $viewModel.isLogin)
             }
             .navigationBarHidden(true)
-                FilePicker(documentTypes: ["*.png","*.jpg"]) {
-                    viewModel.setPickImage(isPick: false)
-                } resultAction: { fileResult in
-                    viewModel.setPickImage(isPick: true)
-                }
-                .zIndex(99).hidden(if: !viewModel.isHidden)
         }
     }
 }

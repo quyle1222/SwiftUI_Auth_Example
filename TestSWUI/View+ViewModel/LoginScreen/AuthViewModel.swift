@@ -42,7 +42,6 @@ class AuthViewModel : ObservableObject {
             } catch let catchError {
                 print("JSON Error \(catchError.localizedDescription)")
             }
-         
         }
     }
 }

@@ -31,6 +31,7 @@
 		24A0CEFB28FF94C400C69CDA /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A0CEFA28FF94C400C69CDA /* AuthResponse.swift */; };
 		24C44D672900F02700F3178C /* MoviesTrendingOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C44D662900F02700F3178C /* MoviesTrendingOutput.swift */; };
 		24FB439128FD5B40006A7F68 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24FB439028FD5B40006A7F68 /* CustomButton.swift */; };
+		36D3D84F293861A3002087FA /* PickerImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36D3D84E293861A3002087FA /* PickerImage.swift */; };
 		5BE7620284CB639B3B48377C /* Pods_TestSWUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65DA7901503F42454304069A /* Pods_TestSWUITests.framework */; };
 		7EF8012DA90748AAB8FB140C /* Pods_TestSWUI_TestSWUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A39AD25BA5146B531F2385 /* Pods_TestSWUI_TestSWUIUITests.framework */; };
 		C45DCBF8F6BAFA261A40ED3E /* Pods_TestSWUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9108225236F6094DE362007A /* Pods_TestSWUI.framework */; };
@@ -82,6 +83,7 @@
 		24A0CEFA28FF94C400C69CDA /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		24C44D662900F02700F3178C /* MoviesTrendingOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTrendingOutput.swift; sourceTree = "<group>"; };
 		24FB439028FD5B40006A7F68 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		36D3D84E293861A3002087FA /* PickerImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerImage.swift; sourceTree = "<group>"; };
 		573B39DBB43F1B201F1D5034 /* Pods-TestSWUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSWUITests.debug.xcconfig"; path = "Target Support Files/Pods-TestSWUITests/Pods-TestSWUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		62525457365845AF723972FC /* Pods-TestSWUI-TestSWUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSWUI-TestSWUIUITests.release.xcconfig"; path = "Target Support Files/Pods-TestSWUI-TestSWUIUITests/Pods-TestSWUI-TestSWUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		65DA7901503F42454304069A /* Pods_TestSWUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSWUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -295,6 +297,7 @@
 			children = (
 				24FB439028FD5B40006A7F68 /* CustomButton.swift */,
 				24818D4828FFD11E001E8740 /* AnimationIconLottie.swift */,
+				36D3D84E293861A3002087FA /* PickerImage.swift */,
 			);
 			path = CommonWidget;
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				24A0CEF628FF91BC00C69CDA /* AuthPost.swift in Sources */,
 				24818D5B28FFE5D2001E8740 /* Movies.swift in Sources */,
 				2492DFD028FE92E900ED3006 /* HomeView.swift in Sources */,
+				36D3D84F293861A3002087FA /* PickerImage.swift in Sources */,
 				2492DFCE28FE911E00ED3006 /* Navigation.swift in Sources */,
 				24818D4928FFD11E001E8740 /* AnimationIconLottie.swift in Sources */,
 			);

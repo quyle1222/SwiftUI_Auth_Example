@@ -20,9 +20,9 @@ struct AuthView_Previews: PreviewProvider {
 
 extension AuthView : View {
     enum Field {
-          case username
-          case password
-      }
+        case username
+        case password
+    }
     
     var body: some View {
         NavigationView {
