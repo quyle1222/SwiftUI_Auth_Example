@@ -10,6 +10,7 @@ import Lottie
 struct AnimationIconLottie: UIViewRepresentable {
     let lottieFile: String
     let animationView = LottieAnimationView()
+    
     func makeUIView(context: UIViewRepresentableContext<AnimationIconLottie>) -> UIView {
         let view = UIView(frame: .zero)
         animationView.animation = Animation.named(lottieFile)

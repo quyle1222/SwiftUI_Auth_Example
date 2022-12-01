@@ -15,7 +15,7 @@ struct MoviesTrendingOutput: Codable {
 
 struct MoviesTrendingData : Codable {
     var page: Int
-    var result: [MovieTrending]?
+    var results: [MovieTrending]?
 }
 
 struct MovieTrending: Codable{

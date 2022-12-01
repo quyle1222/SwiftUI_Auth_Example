@@ -12,7 +12,7 @@ enum MethodRest : String {
 }
 class SessionNetwork {
     private let session = URLSession.shared
-    private let baseURL = "http://localhost:8088/"
+    private let baseURL = "http://192.168.120.238:8088/"
     
     func restAPI(url:String, method: MethodRest, data:Data?, handle: @escaping (Data?,URLResponse?,Error?) ->Void) {
         guard let serviceUrl = URL(string: baseURL + url) else { return }
@@ -20,10 +20,13 @@ class SessionNetwork {
         let token: String? = LocalStorage().getString(key: .token)
         request.httpMethod = method.rawValue
         request.setValue("Application/json", forHTTPHeaderField: "Content-Type")
-         if token != nil && token != "" {
-             request.addValue("Bearer \(token!)", forHTTPHeaderField: "Authorization")
+        if let token = token, token.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty != true {
+            request.addValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         }
         request.httpBody = data
-        session.dataTask(with: request,completionHandler: handle ).resume()
+        session.dataTask(
+            with: request,
+            completionHandler: handle
+        ).resume()
     }
 }

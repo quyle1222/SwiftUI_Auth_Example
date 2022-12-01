@@ -14,11 +14,11 @@ import Foundation
 class LocalStorage {
     let storage = UserDefaults.standard
     
-    func setString(key: Key,value:String) {
+    func setString(key:Key, value:String) {
         storage.set(value, forKey: key.rawValue)
     }
     
-    func getString(key: Key)-> String? {
+    func getString(key:Key)-> String? {
         return storage.string(forKey: key.rawValue)
     }
     

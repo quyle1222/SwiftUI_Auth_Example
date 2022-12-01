@@ -23,6 +23,7 @@ extension AuthView : View {
           case username
           case password
       }
+    
     var body: some View {
         NavigationView {
             ZStack {

@@ -17,8 +17,6 @@
 		24818D4728FFCC64001E8740 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24818D4628FFCC64001E8740 /* LocalStorage.swift */; };
 		24818D4928FFD11E001E8740 /* AnimationIconLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24818D4828FFD11E001E8740 /* AnimationIconLottie.swift */; };
 		24818D5028FFD4C7001E8740 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24818D4F28FFD4C7001E8740 /* NewsView.swift */; };
-		24818D5328FFD92B001E8740 /* circle-loading.json in Resources */ = {isa = PBXBuildFile; fileRef = 24818D5228FFD92B001E8740 /* circle-loading.json */; };
-		24818D5528FFD9DB001E8740 /* contact-us.json in Resources */ = {isa = PBXBuildFile; fileRef = 24818D5428FFD9DB001E8740 /* contact-us.json */; };
 		24818D5728FFDC2C001E8740 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24818D5628FFDC2C001E8740 /* NewsViewModel.swift */; };
 		24818D5B28FFE5D2001E8740 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24818D5A28FFE5D2001E8740 /* Movies.swift */; };
 		2492DFCE28FE911E00ED3006 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2492DFCD28FE911E00ED3006 /* Navigation.swift */; };
@@ -70,8 +68,6 @@
 		24818D4628FFCC64001E8740 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		24818D4828FFD11E001E8740 /* AnimationIconLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationIconLottie.swift; sourceTree = "<group>"; };
 		24818D4F28FFD4C7001E8740 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
-		24818D5228FFD92B001E8740 /* circle-loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "circle-loading.json"; path = "../../../1Wallet-iOS/Timeless-wallet/Resources/Lottie/circle-loading.json"; sourceTree = "<group>"; };
-		24818D5428FFD9DB001E8740 /* contact-us.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "contact-us.json"; path = "../../../../../Downloads/contact-us.json"; sourceTree = "<group>"; };
 		24818D5628FFDC2C001E8740 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
 		24818D5A28FFE5D2001E8740 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		2492DFCD28FE911E00ED3006 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
@@ -200,8 +196,6 @@
 		24818D4C28FFD462001E8740 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				24818D5428FFD9DB001E8740 /* contact-us.json */,
-				24818D5228FFD92B001E8740 /* circle-loading.json */,
 			);
 			path = Lottie;
 			sourceTree = "<group>";
@@ -443,8 +437,6 @@
 			files = (
 				246C62F728ED6E2B00343FE7 /* Preview Assets.xcassets in Resources */,
 				246C62F428ED6E2B00343FE7 /* Assets.xcassets in Resources */,
-				24818D5328FFD92B001E8740 /* circle-loading.json in Resources */,
-				24818D5528FFD9DB001E8740 /* contact-us.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -750,7 +742,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestSWUI/Preview Content\"";
-				DEVELOPMENT_TEAM = JDJ9QB4MRD;
+				DEVELOPMENT_TEAM = 339HSFW44T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -763,7 +755,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "rikkei-test.TestSWUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikkei-test.TestSWUI122";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -780,7 +772,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"TestSWUI/Preview Content\"";
-				DEVELOPMENT_TEAM = JDJ9QB4MRD;
+				DEVELOPMENT_TEAM = 339HSFW44T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -793,7 +785,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "rikkei-test.TestSWUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "rikkei-test.TestSWUI122";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

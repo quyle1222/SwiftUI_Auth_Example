@@ -14,10 +14,6 @@ class HomeViewModel : ObservableObject {
     @Published var listItem = [Item]()
     @Published var listMovies:[MovieTrending] = [MovieTrending]()
     
-    init() {
-        listItem = []
-    }
-    
     func getTitle() -> String {
         return self.title
     }
@@ -32,15 +28,18 @@ class HomeViewModel : ObservableObject {
     }
     
     func getListMovieTrending(){
-        DispatchQueue.main.async {
-            MoviesRepostitory().getListMoviesTrending { [weak self] data in
+        MoviesRepostitory().getListMoviesTrending { [weak self] data in
+            DispatchQueue.main.async {
+                guard let self = self else {return}
                 if data.success {
-                    let list = data.data?.result ?? [MovieTrending]()
-                    
+                    guard let listMovies = data.data?.results, listMovies.count != 0 else {return}
+                    self.listMovies = listMovies
+                } else {
+                    self.listMovies = []
                 }
-            } fail: { error in
-                guard error != nil else {return}
             }
+        } fail: { error in
+            guard error != nil else {return}
         }
     }
 }

@@ -31,15 +31,13 @@ extension HomeView : View{
                                } placeholder: {
                                    Color.red.opacity(0.5)
                                }
-                               .frame(width: .infinity, height: 200,alignment: .center)
+                               .frame(minWidth: 0, maxWidth:.infinity, minHeight: 200, alignment: .center)
                                .cornerRadius(10)
-//                    Text(item.url ?? "")
-                }.onAppear {
-                    viewModel.getListMovieTrending()
                 }
             }
         }.onAppear(
             perform: {
+                viewModel.getListMovieTrending()
                 viewModel.setTitle()
             }
         )
